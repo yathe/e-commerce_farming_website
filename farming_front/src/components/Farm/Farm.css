@@ -1,0 +1,133 @@
+.hero-wrapper {
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+    z-index: 1;
+    background-color: var(--black);
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* Left side */
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    flex: 1;
+}
+
+.hero-title {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title > h1 {
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+
+.orange-circle {
+    height: 4rem;
+    /* width: 4rem; */
+    /* background: var(--orange-gradient); */
+    /* border-radius: 50%;  */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* Using a percentage to make it a perfect circle */
+    /* position: absolute;
+    left: 100px;
+    top: 0; */
+    z-index: -1;
+}
+.orange-circle >h1{
+    position: absolute;
+    left: 90px;
+    top: -50px;
+}
+
+
+.flexColStart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.secondaryText {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid rgba(120, 120, 120, 0.374);
+    padding: 0.5rem 1rem;
+    margin-bottom: 32px;
+}
+
+.search-bar > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left: 1rem;
+}
+
+.button {
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.stat > :nth-child(1) {
+    font-size: 2rem;
+}
+
+.stat > :nth-child(1) > :last-child {
+    color: tomato;
+}
+
+/* Right side */
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container {
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+}
+
+.image-container > img {
+    width: 100%;
+    height: 100%;
+}
+.hero-des> span{
+    margin-bottom: 25px;
+}

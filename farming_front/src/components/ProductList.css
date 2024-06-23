@@ -1,0 +1,23 @@
+.product-name,
+.product-description {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.product-card {
+    margin-bottom: 20px; /* Add margin between cards */
+    width: 100px; /* Set the width of the card */
+    height: 250px; /* Set the height of the card */
+}
+
+.product-img {
+    width: 100%;
+    height: 100px; /* Set the height of the image */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+
+.product-row {
+  margin-bottom: 20px; /* Add margin between rows */
+}
